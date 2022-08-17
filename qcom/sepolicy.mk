@@ -12,6 +12,9 @@ endif
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/private
 
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    device/custom/sepolicy/qcom/public
+
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/dynamic \
